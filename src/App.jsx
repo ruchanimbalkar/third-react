@@ -12,14 +12,14 @@ function App() {
   }
 
   return (
-    <>
-        <h1> My third react project</h1>
+    <div className="wrapper">
+       <h1> My third react project</h1>
         <Greeting/>
         <PropsDemo name="Rucha"/>
         <Destructuring studentName="Chikoo" course="Python" school="UW"/>
         <Button text="Click Me" onClick={handleClick}/>
         <Image path={flyingHouse} altText = "A flying house" widthPx="300px"/>
-    </>
+    </div>
   )
 }
 
